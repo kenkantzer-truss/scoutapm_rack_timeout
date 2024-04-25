@@ -2,5 +2,8 @@
 
 require_relative "config/environment"
 
+require_relative './lib/scout_timeout_middleware'
+use ScoutTimeoutMiddleware
+
 run Rails.application
 Rails.application.load_server

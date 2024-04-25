@@ -68,6 +68,7 @@ GEM
       tzinfo (~> 2.0)
     addressable (2.8.6)
       public_suffix (>= 2.0.2, < 6.0)
+    ast (2.4.2)
     base64 (0.2.0)
     bindex (0.8.1)
     bootsnap (1.18.3)
@@ -130,6 +131,9 @@ GEM
     nio4r (2.7.1)
     nokogiri (1.16.4-x86_64-darwin)
       racc (~> 1.4)
+    parser (3.3.0.5)
+      ast (~> 2.4.1)
+      racc
     psych (5.1.2)
       stringio
     public_suffix (5.0.5)
@@ -176,6 +180,8 @@ GEM
       io-console (~> 0.5)
     rexml (3.2.6)
     rubyzip (2.3.2)
+    scout_apm (5.3.8)
+      parser
     selenium-webdriver (4.20.0)
       base64 (~> 0.2)
       rexml (~> 3.2, >= 3.2.5)
@@ -225,6 +231,7 @@ DEPENDENCIES
   puma (~> 5.0)
   rails (~> 7.0.8)
   redis (~> 4.0)
+  scout_apm
   selenium-webdriver
   sprockets-rails
   sqlite3 (~> 1.4)

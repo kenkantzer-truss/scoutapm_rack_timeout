@@ -1,0 +1,6 @@
+production:
+  auto_instruments: true
+development:
+  auto_instruments: true
+test:
+  auto_instruments: false
